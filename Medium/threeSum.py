@@ -16,6 +16,6 @@ def threeNumberSum(array, targetSum):
                 right = right - 1                
     return triplets
 
-#Abby is cool
+
 
 print(threeNumberSum([12, 3, 1, 2, -6, 5, -8, 6], 0))
