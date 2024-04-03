@@ -1,3 +1,6 @@
+#time O(nlogn)
+#space O(1)
+
 def twoNumberSum(array, targetSum):
     array.sort()
     min = 0
