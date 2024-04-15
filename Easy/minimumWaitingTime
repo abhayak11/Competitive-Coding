@@ -1,0 +1,12 @@
+def minimumWaitingTime(queries):
+    queries.sort()
+    temp = 0
+    sum = 0
+    
+    for i in range(1, len(queries)):
+        temp = temp + queries[i-1]
+        sum = sum + temp
+        
+    return sum
+
+print(minimumWaitingTime([3, 2, 1, 2, 6]))
