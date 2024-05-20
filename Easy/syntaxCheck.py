@@ -6,3 +6,5 @@ print("My Name is Abhaya")
 print("I love coding")
 
 print("Python is amazing!!")
+
+print("GitHub is awesome!!")
